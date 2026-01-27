@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Birthday Calculator</h1>
+    <div class="container">
+
+        <form onsubmit="calculateBirthday(); return false">
+            <label for="dateofbirth">
+                <input type="date" id="dateofbirth" required>
+            </label>
+            <br>
+            <br>
+
+            <button class="btn">Check Birthday</button>
+            <br>
+            <br>
+            <div id="happybirthday"></div>
+            <br>
+            <br>
+            <div id="result"></div>
+        </form>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
