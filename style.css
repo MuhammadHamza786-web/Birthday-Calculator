@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(https://images.pexels.com/photos/20016145/pexels-photo-20016145.jpeg);
 }
 
 .container {
@@ -66,4 +67,13 @@ h1 {
 .container .btn:hover {
     color: black;
     background-color: dodgerblue;
+}
+
+#result {
+    color: whitesmoke;
+
+}
+
+#happybirthday {
+    color: whitesmoke;
 }

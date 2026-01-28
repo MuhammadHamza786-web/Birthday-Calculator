@@ -30,16 +30,17 @@ function calculateBirthday() {
         previousBirthday = `${birthdayThisYear.getDate()}${months[birthdayThisYear.getMonth()]} ${birthdayThisYear.getFullYear() - 1}`
         nextBirthday = `${birthdayThisYear.getDate()}${months[birthdayThisYear.getMonth()]} ${birthdayThisYear.getFullYear()}`
     }
-    if (today.getTime() == birthdayThisYear.getTime()) {
+    if (today.getTime() === birthdayThisYear.getTime()) {
         alert("🥳🎉 Happy Birthday! 🎂🍰\nEnjoy your special day!");
-
+        document.getElementById("result").innerHTML = ""
         document.getElementById("happybirthday").innerHTML = `🎉 Happy Birthday! 🎂<br>
         May Allah bless you with happiness and success 🤲✨`;
 
 
+    } else {
+        document.getElementById("happybirthday").innerHTML = ""
+        document.getElementById("result").innerHTML = `<p>Age: ${userYear} <br> previousBirthday: ${previousBirthday} <br> nextBirthday: ${nextBirthday}</p>`
+
     }
 
-    document.getElementById("result").innerHTML = `<p>Age: ${userYear} <br> previousBirthday: ${previousBirthday} <br> nextBirthday: ${nextBirthday}</p>`
 }
-
-
