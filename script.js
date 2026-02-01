@@ -33,7 +33,7 @@ function calculateBirthday() {
     if (today.getTime() === birthdayThisYear.getTime()) {
         alert("🥳🎉 Happy Birthday! 🎂🍰\nEnjoy your special day!");
         document.getElementById("result").innerHTML = ""
-        document.getElementById("happybirthday") .innerHTML = `🎉 Happy Birthday! 🎂<br>
+        document.getElementById("happybirthday").innerHTML = `🎉 Happy Birthday! 🎂<br>
         May Allah bless you with happiness and success 🤲✨`;
         document.getElementById("happybirthday").style.color = "black";
 
