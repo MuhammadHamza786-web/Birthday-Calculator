@@ -1,6 +1,8 @@
 body {
-    /* background-color: whitesmoke; */
-    background-image: url(https://images.unsplash.com/photo-1464347601390-25e2842a37f7?q=80&w=910&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+background-image: url(https://png.pngtree.com/background/20250108/original/pngtree-happy-birthday-background-for-blue-stereo-creative-picture-image_16090792.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .container {
@@ -14,7 +16,6 @@ body {
     width: 400px;
     height: 350px;
 }
-
 
 
 h1 {
